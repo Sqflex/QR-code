@@ -1,2 +1,2 @@
 # QR-code
-link: 
+link: https://sqflex.github.io/QR-code/
