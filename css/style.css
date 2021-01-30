@@ -1,0 +1,142 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, p, a{
+    color: white;
+}
+
+h1,h2{
+    display: flex;
+    justify-content: center;
+}
+
+#particles-js{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: darkgrey;
+}
+
+#page-wrapper{
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(0.01deg, #252525 45%, rgba(0, 0, 0, 0.5) 95.44%);
+    width: 50%;
+    margin: 0 auto;
+    padding: 25px;
+    padding-top: 60px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: rgba(0,0,0,0.5);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li{
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+
+.navbar ul li a:hover{
+    color: skyblue;
+}
+
+.main-title h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-app{
+    display: flex;
+}
+
+.about-app .img{
+    width: 500px;
+    height: 500px;
+}
+
+.text-about p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.features{
+    background-color: black;
+}
+.features-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.features-item{
+    flex-basis: 30%;
+    margin-bottom: 63px;
+}
+.features-image{
+    display: block;
+    margin-bottom: 22px;
+}
+.features-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.features-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+    /* or 175% */
+    color: #FFFFFF;
+}
+/* Contacts */
+.contacts .contact-blocks{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-item{
+    justify-content: center;
+    margin: 0px 15px;
+}
+
+.contact-item img{
+    width: 400px;
+    height: 400px;
+}
