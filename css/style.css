@@ -26,7 +26,7 @@ h1,h2{
     position: relative;
     z-index: 2;
     background: linear-gradient(0.01deg, #252525 45%, rgba(0, 0, 0, 0.5) 95.44%);
-    width: 50%;
+    width: 85%;
     margin: 0 auto;
     padding: 25px;
     padding-top: 60px;
@@ -78,9 +78,8 @@ h1,h2{
     display: flex;
 }
 
-.about-app .img{
-    width: 500px;
-    height: 500px;
+.about-app img{
+    width: calc(100% / 1.4);
 }
 
 .text-about p{
@@ -105,6 +104,7 @@ h1,h2{
 .features-item{
     flex-basis: 30%;
     margin-bottom: 63px;
+    margin-left: 30px;
 }
 .features-image{
     display: block;
@@ -137,6 +137,18 @@ h1,h2{
 }
 
 .contact-item img{
-    width: 400px;
-    height: 400px;
+    margin-left: calc(100%/6);
+    width: calc(100%/1.5);
+}
+
+/* Video-css */
+
+.video-block{
+    position: absolute;
+    top: calc(24% - 8px);
+    left:calc(20% - 51px);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 149px;
+    height: auto;
 }

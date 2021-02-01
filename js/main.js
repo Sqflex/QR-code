@@ -1,4 +1,5 @@
 jQuery(document).ready(function(){
+    new WOW().init();
     /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
     var scroll = new SmoothScroll('.navbar a[href*="#"]', {
         speed: 800,
